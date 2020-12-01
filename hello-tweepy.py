@@ -9,4 +9,4 @@ auth.set_access_token(credentials.ACCESS_TOKEN_KEY, credentials.ACCESS_TOKEN_SEC
 api = tweepy.API(auth)
 
 # Create a tweet
-api.update_status("Hello once again")
+api.update_status("Morjesta Lappi!")
