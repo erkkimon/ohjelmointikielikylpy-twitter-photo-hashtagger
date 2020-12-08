@@ -25,6 +25,6 @@ for item in response.label_annotations:
 #for label in response.label_annotations:
 #    print(label.description, '(%.2f%%)' % (label.score*100.))
 
-# Ajetaan seuraavalla terminaalikomennolla hakemistossa, johon label-detection.py on tallennettu:
+# Ajetaan seuraavalla terminaalikomennolla hakemistossa, johon hello-google-machine-vision.py on tallennettu:
 # GOOGLE_APPLICATION_CREDENTIALS=~/primordial-hall-key.json python3 label-detection.py
 # Lisäksi kotihakemistosta tarttee löytyä primordial-hall-key.json 
